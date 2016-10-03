@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="liG-yM-xhL">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Iuvare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RRz-so-AUW">
+                                <frame key="frameInset" minY="20" width="600" height="580"/>
+                                <color key="backgroundColor" red="0.26968321204185486" green="0.0" blue="0.49951112270355225" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34509803921568627" green="0.0039215686274509803" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="RRz-so-AUW" secondAttribute="trailing" constant="-20" id="D43-pE-DYT"/>
+                            <constraint firstItem="RRz-so-AUW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="McM-mR-Jb7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RRz-so-AUW" secondAttribute="bottom" id="WfU-Kl-L5o"/>
+                            <constraint firstItem="RRz-so-AUW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="oVa-nT-h7p"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="RRz-so-AUW" id="tgQ-p1-Y0t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-661" y="375"/>
+        </scene>
+        <!--Show Splash Screen-->
+        <scene sceneID="bcW-dO-u1x">
+            <objects>
+                <viewController id="liG-yM-xhL" customClass="ShowSplashScreen" customModule="Iuvare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dfh-NZ-71p"/>
+                        <viewControllerLayoutGuide type="bottom" id="4T4-Uy-JNj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HAG-Ir-39I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Splash Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8EM-Kn-dKY">
+                                <frame key="frameInset" minX="88" minY="235" width="200" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="M1J-7h-laH"/>
+                                    <constraint firstAttribute="height" constant="200" id="jXh-4Y-ZBi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8EM-Kn-dKY" firstAttribute="centerX" secondItem="HAG-Ir-39I" secondAttribute="centerX" id="BRP-o8-4aC"/>
+                            <constraint firstItem="8EM-Kn-dKY" firstAttribute="centerY" secondItem="HAG-Ir-39I" secondAttribute="centerY" id="N6A-Iv-7ol"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="showSplashScreen" id="ADP-V8-Wjl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yqj-gG-oQt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1385" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash Logo" width="512" height="512"/>
+    </resources>
+</document>

@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0457B51D871A1000978EFA /* ShowSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0457B41D871A1000978EFA /* ShowSplashScreen.swift */; };
+		0D4D21EB1D7F9CD2005C1AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4D21EA1D7F9CD2005C1AF3 /* AppDelegate.swift */; };
+		0D4D21ED1D7F9CD2005C1AF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4D21EC1D7F9CD2005C1AF3 /* ViewController.swift */; };
+		0D4D21F01D7F9CD2005C1AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4D21EE1D7F9CD2005C1AF3 /* Main.storyboard */; };
+		0D4D21F21D7F9CD2005C1AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4D21F11D7F9CD2005C1AF3 /* Assets.xcassets */; };
+		0D4D21F51D7F9CD2005C1AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4D21F31D7F9CD2005C1AF3 /* LaunchScreen.storyboard */; };
+		0DA8B1851D8CB5330011972C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DA8B1841D8CB5330011972C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D0457B41D871A1000978EFA /* ShowSplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSplashScreen.swift; sourceTree = "<group>"; };
+		0D3416281D89DB3D007E8E41 /* Iuvare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Iuvare.entitlements; sourceTree = "<group>"; };
+		0D4D21E71D7F9CD2005C1AF3 /* Iuvare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iuvare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4D21EA1D7F9CD2005C1AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D4D21EC1D7F9CD2005C1AF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D4D21EF1D7F9CD2005C1AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D4D21F11D7F9CD2005C1AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D4D21F41D7F9CD2005C1AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D4D21F61D7F9CD2005C1AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA8B1841D8CB5330011972C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		690549CD2212A8DD8FCE3489 /* Pods-iuvare-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iuvare-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iuvare-ios/Pods-iuvare-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		D37B27630F7F3C49B4B8BBE0 /* Pods-iuvare-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iuvare-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-iuvare-ios/Pods-iuvare-ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D4D21E41D7F9CD2005C1AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D4D21DE1D7F9CD2005C1AF3 = {
+			isa = PBXGroup;
+			children = (
+				0D4D21E91D7F9CD2005C1AF3 /* iuvare-ios */,
+				0D4D21E81D7F9CD2005C1AF3 /* Products */,
+				249E8F01FE52DF5EF2E2642A /* Pods */,
+				5DA1F6B6C0DD33B01E34974D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D4D21E81D7F9CD2005C1AF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D4D21E71D7F9CD2005C1AF3 /* Iuvare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D4D21E91D7F9CD2005C1AF3 /* iuvare-ios */ = {
+			isa = PBXGroup;
+			children = (
+				0DA8B1841D8CB5330011972C /* GoogleService-Info.plist */,
+				0D3416281D89DB3D007E8E41 /* Iuvare.entitlements */,
+				0D4D21EA1D7F9CD2005C1AF3 /* AppDelegate.swift */,
+				0D4D21EC1D7F9CD2005C1AF3 /* ViewController.swift */,
+				0D0457B41D871A1000978EFA /* ShowSplashScreen.swift */,
+				0D4D21EE1D7F9CD2005C1AF3 /* Main.storyboard */,
+				0D4D21F11D7F9CD2005C1AF3 /* Assets.xcassets */,
+				0D4D21F31D7F9CD2005C1AF3 /* LaunchScreen.storyboard */,
+				0D4D21F61D7F9CD2005C1AF3 /* Info.plist */,
+			);
+			path = "iuvare-ios";
+			sourceTree = "<group>";
+		};
+		249E8F01FE52DF5EF2E2642A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				690549CD2212A8DD8FCE3489 /* Pods-iuvare-ios.debug.xcconfig */,
+				D37B27630F7F3C49B4B8BBE0 /* Pods-iuvare-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DA1F6B6C0DD33B01E34974D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D4D21E61D7F9CD2005C1AF3 /* iuvare-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4D220F1D7F9CD3005C1AF3 /* Build configuration list for PBXNativeTarget "iuvare-ios" */;
+			buildPhases = (
+				11DE8AA3209257A4A73B2760 /* [CP] Check Pods Manifest.lock */,
+				0D4D21E31D7F9CD2005C1AF3 /* Sources */,
+				0D4D21E41D7F9CD2005C1AF3 /* Frameworks */,
+				0D4D21E51D7F9CD2005C1AF3 /* Resources */,
+				70919137776C1ECD482C46D4 /* [CP] Embed Pods Frameworks */,
+				997158F0625DC8231F946AA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iuvare-ios";
+			productName = "iuvare-ios";
+			productReference = 0D4D21E71D7F9CD2005C1AF3 /* Iuvare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D4D21DF1D7F9CD2005C1AF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "La Codería";
+				TargetAttributes = {
+					0D4D21E61D7F9CD2005C1AF3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U7443L5ZBL;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0D4D21E21D7F9CD2005C1AF3 /* Build configuration list for PBXProject "iuvare-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D4D21DE1D7F9CD2005C1AF3;
+			productRefGroup = 0D4D21E81D7F9CD2005C1AF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D4D21E61D7F9CD2005C1AF3 /* iuvare-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D4D21E51D7F9CD2005C1AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4D21F51D7F9CD2005C1AF3 /* LaunchScreen.storyboard in Resources */,
+				0DA8B1851D8CB5330011972C /* GoogleService-Info.plist in Resources */,
+				0D4D21F21D7F9CD2005C1AF3 /* Assets.xcassets in Resources */,
+				0D4D21F01D7F9CD2005C1AF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11DE8AA3209257A4A73B2760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70919137776C1ECD482C46D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iuvare-ios/Pods-iuvare-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997158F0625DC8231F946AA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iuvare-ios/Pods-iuvare-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D4D21E31D7F9CD2005C1AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4D21ED1D7F9CD2005C1AF3 /* ViewController.swift in Sources */,
+				0D4D21EB1D7F9CD2005C1AF3 /* AppDelegate.swift in Sources */,
+				0D0457B51D871A1000978EFA /* ShowSplashScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D4D21EE1D7F9CD2005C1AF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4D21EF1D7F9CD2005C1AF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D4D21F31D7F9CD2005C1AF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4D21F41D7F9CD2005C1AF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D4D220D1D7F9CD3005C1AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U7443L5ZBL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ea332164-566d-45fd-bc41-d64857e797ff";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D4D220E1D7F9CD3005C1AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U7443L5ZBL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ea332164-566d-45fd-bc41-d64857e797ff";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D4D22101D7F9CD3005C1AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690549CD2212A8DD8FCE3489 /* Pods-iuvare-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iuvare-ios/Iuvare.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				DEVELOPMENT_TEAM = U7443L5ZBL;
+				INFOPLIST_FILE = "iuvare-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.coderia.iuvare-ios";
+				PRODUCT_NAME = Iuvare;
+				PROVISIONING_PROFILE = "ea332164-566d-45fd-bc41-d64857e797ff";
+				PROVISIONING_PROFILE_SPECIFIER = "Iuvare ios distribution profile";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0D4D22111D7F9CD3005C1AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37B27630F7F3C49B4B8BBE0 /* Pods-iuvare-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iuvare-ios/Iuvare.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				DEVELOPMENT_TEAM = U7443L5ZBL;
+				INFOPLIST_FILE = "iuvare-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.coderia.iuvare-ios";
+				PRODUCT_NAME = Iuvare;
+				PROVISIONING_PROFILE = "ea332164-566d-45fd-bc41-d64857e797ff";
+				PROVISIONING_PROFILE_SPECIFIER = "Iuvare ios distribution profile";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D4D21E21D7F9CD2005C1AF3 /* Build configuration list for PBXProject "iuvare-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4D220D1D7F9CD3005C1AF3 /* Debug */,
+				0D4D220E1D7F9CD3005C1AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4D220F1D7F9CD3005C1AF3 /* Build configuration list for PBXNativeTarget "iuvare-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4D22101D7F9CD3005C1AF3 /* Debug */,
+				0D4D22111D7F9CD3005C1AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D4D21DF1D7F9CD2005C1AF3 /* Project object */;
+}
