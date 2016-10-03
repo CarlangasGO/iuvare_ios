@@ -52,7 +52,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Splash Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8EM-Kn-dKY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="8EM-Kn-dKY">
                                 <frame key="frameInset" minX="88" minY="235" width="200" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -77,6 +77,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Splash Logo" width="512" height="512"/>
+        <image name="LaunchImage" width="512" height="512"/>
     </resources>
 </document>

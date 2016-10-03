@@ -295,7 +295,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "ea332164-566d-45fd-bc41-d64857e797ff";
+				PROVISIONING_PROFILE = "ca031d22-dd5e-4b8f-b825-4b086738ff29";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -356,14 +356,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iuvare-ios/Iuvare.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = U7443L5ZBL;
 				INFOPLIST_FILE = "iuvare-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mx.coderia.iuvare-ios";
 				PRODUCT_NAME = Iuvare;
-				PROVISIONING_PROFILE = "ea332164-566d-45fd-bc41-d64857e797ff";
-				PROVISIONING_PROFILE_SPECIFIER = "Iuvare ios distribution profile";
+				PROVISIONING_PROFILE = "ca031d22-dd5e-4b8f-b825-4b086738ff29";
+				PROVISIONING_PROFILE_SPECIFIER = "Iuvare ios development profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -375,7 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iuvare-ios/Iuvare.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jorge Benjamin Hernandez Zetter (U7443L5ZBL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = U7443L5ZBL;
 				INFOPLIST_FILE = "iuvare-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
