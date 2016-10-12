@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0D0457B51D871A1000978EFA /* ShowSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0457B41D871A1000978EFA /* ShowSplashScreen.swift */; };
+		0D41704E1DAEE124000916DF /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41704D1DAEE124000916DF /* LoadingIndicatorView.swift */; };
+		0D4170501DAEE929000916DF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41704F1DAEE929000916DF /* Reachability.swift */; };
 		0D4D21EB1D7F9CD2005C1AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4D21EA1D7F9CD2005C1AF3 /* AppDelegate.swift */; };
 		0D4D21ED1D7F9CD2005C1AF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4D21EC1D7F9CD2005C1AF3 /* ViewController.swift */; };
 		0D4D21F01D7F9CD2005C1AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4D21EE1D7F9CD2005C1AF3 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		0D0457B41D871A1000978EFA /* ShowSplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSplashScreen.swift; sourceTree = "<group>"; };
 		0D3416281D89DB3D007E8E41 /* Iuvare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Iuvare.entitlements; sourceTree = "<group>"; };
+		0D41704D1DAEE124000916DF /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		0D41704F1DAEE929000916DF /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		0D4D21E71D7F9CD2005C1AF3 /* Iuvare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iuvare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D4D21EA1D7F9CD2005C1AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D4D21EC1D7F9CD2005C1AF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +75,9 @@
 				0D4D21EE1D7F9CD2005C1AF3 /* Main.storyboard */,
 				0D4D21F11D7F9CD2005C1AF3 /* Assets.xcassets */,
 				0D4D21F31D7F9CD2005C1AF3 /* LaunchScreen.storyboard */,
+				0D41704D1DAEE124000916DF /* LoadingIndicatorView.swift */,
 				0D4D21F61D7F9CD2005C1AF3 /* Info.plist */,
+				0D41704F1DAEE929000916DF /* Reachability.swift */,
 			);
 			path = "iuvare-ios";
 			sourceTree = "<group>";
@@ -226,6 +232,8 @@
 				0D4D21ED1D7F9CD2005C1AF3 /* ViewController.swift in Sources */,
 				0D4D21EB1D7F9CD2005C1AF3 /* AppDelegate.swift in Sources */,
 				0D0457B51D871A1000978EFA /* ShowSplashScreen.swift in Sources */,
+				0D4170501DAEE929000916DF /* Reachability.swift in Sources */,
+				0D41704E1DAEE124000916DF /* LoadingIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
