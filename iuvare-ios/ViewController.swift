@@ -41,11 +41,6 @@ class ViewController : UIViewController, UIWebViewDelegate {
             
             let alert = UIAlertController(title: "No hay conexión a internet", message: "Conéctate a una red Wi-Fi o habilita tus datos celulares.", preferredStyle: UIAlertControllerStyle.alert)
             
-            let settingsAction = UIAlertAction(title: "Ir a ajustes", style: .default) { (_) -> Void in
-                
-            }
-            alert.addAction(settingsAction)
-            
             let retryAction = UIAlertAction(title: "Volver a intentar", style: UIAlertActionStyle.default, handler: { (action: UIAlertAction!) in
                 self.loadWebView()
             })
